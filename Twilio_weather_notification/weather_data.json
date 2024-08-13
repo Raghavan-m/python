@@ -1,0 +1,164 @@
+{
+    "cod": "200",
+    "message": 0,
+    "cnt": 4,
+    "list": [
+        {
+            "dt": 1723528800,
+            "main": {
+                "temp": 305.13,
+                "feels_like": 312.13,
+                "temp_min": 305.13,
+                "temp_max": 306.61,
+                "pressure": 1007,
+                "sea_level": 1007,
+                "grnd_level": 1003,
+                "humidity": 73,
+                "temp_kf": -1.48
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 76
+            },
+            "wind": {
+                "speed": 3.47,
+                "deg": 173,
+                "gust": 2.71
+            },
+            "visibility": 10000,
+            "pop": 0.17,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2024-08-13 06:00:00"
+        },
+        {
+            "dt": 1723539600,
+            "main": {
+                "temp": 305.92,
+                "feels_like": 312.92,
+                "temp_min": 305.92,
+                "temp_max": 306.68,
+                "pressure": 1004,
+                "sea_level": 1004,
+                "grnd_level": 1000,
+                "humidity": 63,
+                "temp_kf": -0.76
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 66
+            },
+            "wind": {
+                "speed": 5.69,
+                "deg": 141,
+                "gust": 4.11
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2024-08-13 09:00:00"
+        },
+        {
+            "dt": 1723550400,
+            "main": {
+                "temp": 304.47,
+                "feels_like": 309.23,
+                "temp_min": 304.47,
+                "temp_max": 304.47,
+                "pressure": 1003,
+                "sea_level": 1003,
+                "grnd_level": 1000,
+                "humidity": 62,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 803,
+                    "main": "Clouds",
+                    "description": "broken clouds",
+                    "icon": "04d"
+                }
+            ],
+            "clouds": {
+                "all": 53
+            },
+            "wind": {
+                "speed": 5.98,
+                "deg": 139,
+                "gust": 5.9
+            },
+            "visibility": 10000,
+            "pop": 0,
+            "sys": {
+                "pod": "d"
+            },
+            "dt_txt": "2024-08-13 12:00:00"
+        },
+        {
+            "dt": 1723561200,
+            "main": {
+                "temp": 302.14,
+                "feels_like": 307.23,
+                "temp_min": 302.14,
+                "temp_max": 302.14,
+                "pressure": 1006,
+                "sea_level": 1006,
+                "grnd_level": 1003,
+                "humidity": 77,
+                "temp_kf": 0
+            },
+            "weather": [
+                {
+                    "id": 802,
+                    "main": "Clouds",
+                    "description": "scattered clouds",
+                    "icon": "03n"
+                }
+            ],
+            "clouds": {
+                "all": 39
+            },
+            "wind": {
+                "speed": 5.57,
+                "deg": 140,
+                "gust": 8.09
+            },
+            "visibility": 10000,
+            "pop": 0.15,
+            "sys": {
+                "pod": "n"
+            },
+            "dt_txt": "2024-08-13 15:00:00"
+        }
+    ],
+    "city": {
+        "id": 1270787,
+        "name": "G\u016bduv\u0101ncheri",
+        "coord": {
+            "lat": 12.8733,
+            "lon": 80.0733
+        },
+        "country": "IN",
+        "population": 30972,
+        "timezone": 19800,
+        "sunrise": 1723508848,
+        "sunset": 1723554110
+    }
+}
