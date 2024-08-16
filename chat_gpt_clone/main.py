@@ -10,7 +10,7 @@ load_dotenv()
 
 temp =0
 context_size = 8000
-system_prompt = "you are helpfull assistant"
+system_prompt = "you are an expert in  python programming language"
 model_name  = "llama-3.1-70b-versatile"
 
 #api key from env
