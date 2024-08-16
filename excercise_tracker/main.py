@@ -1,6 +1,14 @@
-from keys import *
+from dotenv import load_dotenv
+import os
 import requests
 from datetime import date,datetime
+
+load_dotenv()
+
+app_id = os.getenv("app_id")
+api_key = os.getenv("api_key")
+sheets_url = os.getenv("sheets_url")
+
 
 now  = datetime.now().strftime("%H:%M")
 today =  date.today().strftime("%d-%m-%Y")
@@ -13,10 +21,6 @@ header_params = {
     'x-app-id': app_id,
     'x-app-key': api_key
 }
-
-# query_params = {
-#     "query": "swam for 1 hour"
-# }
 
 user_input  =  input("Enter the excercise you have done today: ")
 
@@ -44,5 +48,6 @@ for exercise in json_response["exercises"]:
         }
     }
     sheet_response =  requests.post(url=add_data_url, json = sheet_inputs)
+
     print(sheet_response.json())
 
